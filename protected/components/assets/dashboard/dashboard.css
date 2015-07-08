@@ -1,0 +1,16 @@
+.dash-portlet { margin: 0 1em 1em 0; }
+.dash-portlet-header {
+    margin: 0.3em;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+.dash-portlet-header .ui-icon { float: right; }
+.dash-portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }
+#dash-controls { float: right; }
+#dash-header a { text-decoration: none; }
+#all_open { display: none; }

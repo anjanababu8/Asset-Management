@@ -1,0 +1,23 @@
+.column1 { width: 170px; float: left; padding-bottom: 10px; }
+.column2 {width: 500px; float: left; padding-bottom: 10px; }
+.column3 { width: 240px; float: left; padding-bottom: 10px; }
+.portlet { margin: 0 1em 1em 0; }
+.portlet-header { margin: 0.3em; padding-bottom: 4px; padding-left: 0.2em; }
+.portlet-header .ui-icon { float: right; }
+.portlet-content { padding: 0.4em; }
+.ui-sortable-placeholder { border: 1px dotted black; visibility: visible !important; height: 50px !important; }
+.ui-sortable-placeholder * { visibility: hidden; }
+.portlet-content {
+    max-height:400px;
+    _height:expression(this.scrollHeight>199?"200px":"auto");
+    overflow:auto; 
+    background-color: #F2F5F7;
+}
+.hidden{display: none}
+#dash-header{margin-bottom: 5px; padding: 3px}
+#dash-header div{float: left;}
+#menu2{float:left;}
+
+.dash-sing-col-content{
+   width: 920px; float: left; padding-bottom: 10px;
+}
